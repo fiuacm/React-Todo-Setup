@@ -8,7 +8,8 @@ const gulp = require('gulp'),
     buffer = require('vinyl-buffer'),
     watchify = require('watchify'),
     rename = require('gulp-rename'),
-    gutil = require('gulp-util');
+    gutil = require('gulp-util'),
+    nodemon = require('gulp-nodemon');
 
 const config = {
     src: './client/public/js/index.js',
@@ -22,7 +23,7 @@ let bundle = (bundler) => {
         .pipe(buffer())
         .pipe(rename('bundle.js'))
         .pipe(gulp.dest(config.dest))
-        .on('end', () => gutil.log(gutil.colors.green('==> Successful Bundle!')));
+        .on('end', () => gutil.log(gutil.colors.green('Finshed compiling js!')));
 }
 
 gulp.task('client-browserify', () => {
@@ -38,7 +39,14 @@ gulp.task('client-browserify', () => {
     bundle(bundler);
 })
 
-
+gulp.task('start-server', () => {
+  nodemon({
+    script: 'index.js',
+    ext: 'js',
+    ignore: ['node_modules', 'client/public/dist', 'services/dist/'],
+    env: { 'NODE_ENV': 'development' }
+  })
+})
 
 gulp.task('babel-services', () => {
     return gulp.src('services/js/**/*.js')
@@ -53,5 +61,5 @@ gulp.task('watch', () => {
 });
 
 gulp.task('default', () => {
-    gulp.start('client-browserify', 'babel-services', 'watch');
+    gulp.start('client-browserify', 'babel-services', 'start-server' ,'watch');
 });

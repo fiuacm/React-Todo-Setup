@@ -19,14 +19,14 @@ Initial Set-up:
     3. Restart Terminal and try again.
 
   After node is installed and working we install the following dependencies on the project directory (For more details about this setup please visit: https://codegaze.github.io/2016/01/05/working-with-es6-in-browser/)
-  
+
     1. Run this command and follow the instructions to completion:
        $ npm init
     2. Gulp: https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
        $ npm install gulp-cli -g
     3. Gulp-Babel: https://www.npmjs.com/package/gulp-babel
        $ npm install gulp --save   
-       $ npm install gulp-babel babel-preset-es2015 babel-preset-react babelify browserify gulp gulp-rename gulp-util vinyl-buffer vinyl-source-stream watchify --save
+       $ npm install gulp-babel babel-preset-es2015 babel-preset-react babelify browserify gulp gulp-rename gulp-util vinyl-buffer vinyl-source-stream watchify gulp-nodemon --save
 
 Development Set Up
 
