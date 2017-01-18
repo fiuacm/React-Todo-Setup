@@ -4,7 +4,6 @@ This a a simple ToDo-List built with ReactJS. NodeJS, Express and Mongo
 
 This simple app can be built from scratch just follow the guidelines here and comments through the code.
 
-Initial Set-up:
 
   Requirements:
     1. NodeJS: To install node in either Windows/Linux please follow these steps: https://nodejs.org/en/download/
@@ -18,7 +17,12 @@ Initial Set-up:
     2. If step 1 does not work. Then you have to add node to your path, follow these steps: http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path
     3. Restart Terminal and try again.
 
-  After node is installed and working we install the following dependencies on the project directory (For more details about this setup please visit: https://codegaze.github.io/2016/01/05/working-with-es6-in-browser/)
+
+Development Set Up
+
+Manual (I already did this for you but feel free to learn how to do it manually, skip to line 47 for the easier setup):
+
+  After node is installed and working we install dependencies on the project directory with npm (For more details about this setup please visit: https://codegaze.github.io/2016/01/05/working-with-es6-in-browser/)
 
     1. Run this command and follow the instructions to completion:
        $ npm init
@@ -27,12 +31,25 @@ Initial Set-up:
     3. Gulp-Babel: https://www.npmjs.com/package/gulp-babel
        $ npm install gulp --save   
        $ npm install gulp-babel babel-preset-es2015 babel-preset-react babelify browserify gulp gulp-rename gulp-util vinyl-buffer vinyl-source-stream watchify gulp-nodemon --save
-
-Development Set Up
-
-    1. Express: http://expressjs.com/en/starter/hello-world.html
+    4. Express: http://expressjs.com/en/starter/hello-world.html
        $ npm install express --save
-    2. ReactJS: https://facebook.github.io/react/docs/installation.html
+    5. ReactJS: https://facebook.github.io/react/docs/installation.html
        $ npm install react react-dom --save
-    3. AngularJS v1/v2 (Optional) Although we're not making our ToDo-List in Angular you could use it instead of React. https://angularjs.org/
+    6. AngularJS v1/v2 (Optional) Although we're not making our ToDo-List in Angular you could use it instead of React. https://angularjs.org/
        For a guide on how to build a ToDo in Angular visit: https://github.com/jonycodes/ToDo   
+    7. Set up gulfile.js:
+        * In the main directory run
+            $ touch gulpfile.js
+        * Copy and paste https://github.com/jonycodes/React-ToDo/blob/master/gulpfile.js into your local gulpfile (This whole compile process is another workshop to explain. For now you're get it for free!!)
+    8. Create all the same files from the github repository with the same exact structure: https://github.com/jonycodes/React-ToDo
+    9. Follow the instructions in each js file to fill in the code
+
+Automatic:
+
+    1. Run:
+        $ git clone https://github.com/jonycodes/React-ToDo.git
+        $ cd React-ToDo
+        $ npm install
+        $ gulp
+    2. Start Coding! A server should be live at `localhost:3000` with a `Hello, World!` message  
+    3. Follow the instructions in each js file to fill in the code  
