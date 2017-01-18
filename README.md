@@ -41,7 +41,7 @@ Manual (I already did this for you but feel free to learn how to do it manually,
         * In the main directory run
             $ touch gulpfile.js
         * Copy and paste https://github.com/jonycodes/React-ToDo/blob/master/gulpfile.js into your local gulpfile (This whole compile process is another workshop to explain. For now you're get it for free!!)
-    8. Create all the same files from the github repository with the same exact structure: https://github.com/jonycodes/React-ToDo
+    8. Create all the same files from the github repository with the same exact file structure of https://github.com/jonycodes/React-ToDo or create your own      file sctructure but change the configs the `gulpfile`
     9. Follow the instructions in each js file to fill in the code
 
 Automatic:
