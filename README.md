@@ -51,5 +51,5 @@ Automatic:
         $ cd React-ToDo
         $ npm install
         $ gulp
-    2. Start Coding! A server should be live at `localhost:3000` with a `Hello, World!` message  
+    2. Start Coding! A server should be live at `localhost:3000` with a `Hello, World!` message (Make sure you can see this message otherwise something has gone wrong)  
     3. Follow the instructions in each js file to fill in the code  
