@@ -47,7 +47,8 @@ Manual (I already did this for you but feel free to learn how to do it manually,
 Automatic:
 
     1. Run:
-        $ git clone https://github.com/jonycodes/React-ToDo.git
+        $ git clone https://github.com/fiuacm/React-Todo-Setup.git
+        $ mv React-Todo-Setup React-ToDo
         $ cd React-ToDo
         $ npm install
         $ gulp
