@@ -6,6 +6,7 @@ This simple app can be built from scratch just follow the guidelines here and co
 
 
   Requirements:
+  
     1. NodeJS: To install node in either Windows/Linux please follow these steps: https://nodejs.org/en/download/
     2. MongoDB: To install mongo in either Windows/Linux please follow these steps: https://www.mongodb.com/download-center?jmp=nav
     Note: to install mongo on Linux just run the command
