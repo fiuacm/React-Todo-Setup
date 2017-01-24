@@ -8,10 +8,17 @@ This simple app can be built from scratch just follow the guidelines here and co
   Requirements:
     1. NodeJS: To install node in either Windows/Linux please follow these steps: https://nodejs.org/en/download/
     2. MongoDB: To install mongo in either Windows/Linux please follow these steps: https://www.mongodb.com/download-center?jmp=nav
-
-  Once Node is installed check to see if it's in your computer by running these commands:
+    Note: to install mongo on Linux just run the command
+    $ sudo apt-get install mongo
+  
+  Once Node/Mongo is installed check to see if it's in your computer by running these commands:
     $ node -v
-
+    $ mongo -version
+  Then setup the databse by running:
+    $ mongo 
+    $ use todos
+  This will will create a database named `todos` and that's it, no need to create schemas or anything for now! (It's that easy)
+  
   Windows Users: If this command is not found by your terminal two things:
     1. Restart the terminal and try again
     2. If step 1 does not work. Then you have to add node to your path, follow these steps: http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path
