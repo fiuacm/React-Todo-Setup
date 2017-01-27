@@ -8,7 +8,7 @@
 * **NodeJS:**  To install node in either Windows/Linux please follow these steps: https://nodejs.org/en/download/ (Any version above 5.7.1 works!) Also recommend getting nvm https://github.com/creationix/nvm to manage Node versions.
 * **MongoDB:** To install mongo in either Windows/Linux please follow these steps: https://www.mongodb.com/download-center?jmp=nav. Easier way to install mongo is Linux: $ sudo apt-get install mongodb
        
-* Once Node/Mongo is installed check if it's in your computer by running these commands:
+* **Important Checks** Once Node/Mongo is installed check if it's working in your computer by running these commands:
     $ node -v
     $ mongo --version
 
