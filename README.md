@@ -14,7 +14,7 @@
       $ mongo --version
       ```
       
-       *  If these command are not found by your terminal follow these steps:
+       *  If these commands are not found by your terminal follow these steps:
        *  **Windows Users:** 
        
               1. Restart the terminal and try again
