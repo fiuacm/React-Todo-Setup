@@ -9,8 +9,11 @@
 * **MongoDB:** To install mongo in either Windows/Linux please follow these steps: https://www.mongodb.com/download-center?jmp=nav. Easier way to install mongo is Linux: $ sudo apt-get install mongodb
        
 * **Important Checks**: Once Node/Mongo is installed check if it's working in your computer by running these commands:
-      > $ node -v
-      > $ mongo --version
+      ```
+      $ node -v
+      $ mongo --version
+      ```
+      
        *  If these command are not found by your terminal follow these steps:
        *  **Windows Users:** 
        
