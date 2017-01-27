@@ -27,7 +27,7 @@
               3. restart terminal and try again
 
 
-## Development Manul Set Up
+## Development Manual Set Up
 
 Manual (For those who would like to set up the environment manually, otherwise skip to line 45 for easier automatic setup)
 
