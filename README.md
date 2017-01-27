@@ -11,7 +11,8 @@
 * **Important Checks**: Once Node/Mongo is installed check if it's working in your computer by running these commands:
     $ node -v
     $ mongo --version
-       *  **Windows Users:** If these command are not found by your terminal follow these steps:
+    If these command are not found by your terminal follow these steps:
+       *  **Windows Users:** 
        
               1. Restart the terminal and try again
               2. If step 1 does not work. Then you have to add node to your path, follow these steps:           http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path
