@@ -12,9 +12,10 @@
     $ node -v
     $ mongo --version
        *  **Windows Users:** If these command are not found by your terminal follow these steps:
-              1.     Restart the terminal and try again
-              2.     If step 1 does not work. Then you have to add node to your path, follow these steps: http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path
-              3.     Restart Terminal and try again.
+       
+              1. Restart the terminal and try again
+              2. If step 1 does not work. Then you have to add node to your path, follow these steps:           http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path
+              3. Restart Terminal and try again.
        *  **Linux Users:**  Check all rc files to see if the directory of mongo/node is in the PATH variable          
 
 
